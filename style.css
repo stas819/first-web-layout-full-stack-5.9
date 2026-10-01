@@ -26,3 +26,11 @@ header {
     background-color: #0076B6;
     color: white;
 }
+
+.hover {
+    display: none;
+}
+
+.radio-option:hover .hover {
+    display: block;
+}
