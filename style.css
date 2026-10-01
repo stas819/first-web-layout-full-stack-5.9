@@ -34,3 +34,8 @@ header {
 .radio-option:hover .hover {
     display: block;
 }
+
+.create-button {
+    color: white;
+    background-color: #3698FB;
+}
