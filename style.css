@@ -1,0 +1,28 @@
+form {
+    display: inline-block;
+    width: 45%;
+    height: 50px;
+    background-color: #EFF6FF;
+    color: #2A4A5C;
+}
+
+#picture {
+    display: inline-block;
+    width: 50%;
+}
+
+header {
+    display: inline-block;
+    width: 45%;
+    height: 850px;
+}
+
+.facebook {
+    background-color: #255A9B;
+    color: white;
+}
+
+.linkedin {
+    background-color: #0076B6;
+    color: white;
+}
