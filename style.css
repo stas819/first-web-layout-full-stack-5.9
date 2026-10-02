@@ -1,20 +1,17 @@
-form {
-    display: inline-block;
-    width: 45%;
-    height: 50px;
+body {
+    font-family: "barlow";
     background-color: #EFF6FF;
-    color: #2A4A5C;
 }
 
-.picture {
-    display: inline-block;
-    width: 50%;
+.container {
+    display: flex;
 }
 
-header {
-    display: inline-block;
-    width: 45%;
-    height: 850px;
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
 }
 
 .facebook {
@@ -25,17 +22,4 @@ header {
 .linkedin {
     background-color: #0076B6;
     color: white;
-}
-
-.hover {
-    display: none;
-}
-
-.radio-option:hover .hover {
-    display: block;
-}
-
-.create-button {
-    color: white;
-    background-color: #3698FB;
 }

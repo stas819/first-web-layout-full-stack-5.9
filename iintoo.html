@@ -9,50 +9,66 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
+<!-- до этого момента все отлично -->
+
 
 <body>
     <main>
-        <div class="picture">
-            <img src="./images/bg.jpg" alt="background illustration for iintoo invest together">
-        </div>
+        <div class="container">
 
-<form class="content">
-     <header>
-        <img src="./images/logo.svg" alt="iintoo logo">
+        <div class="left">
+            <img class="bg" src="./images/bg.jpg" alt="background illustration for iintoo invest together">
+            <img class="logo" src="./images/logo.svg" alt="iintoo logo">
+        </div>
+<!-- до этого момента тут все что должно находиться слева -->
+
+        <div class="right">
+        <header>
         <h1>Get iintoo it today</h1>
         <p>There is no charge or obligation upon registration.</p>
-    </header>
-        <div>
-            <button class="facebook" type="button">Register with facebook</button>
-            <img src="./images/facebook.svg" alt="facebook logo">
-        </div>
+        </header>
+<!-- блок с header -->
 
-        <div>
-            <button class="linkedin" type="button">Register with LinkedIn</button>
-            <img src="./images/linkedin.svg" alt="linked logo">
+        <div class="media">
+        <button class="facebook">
+            <div type="button">Register with facebook</div>
+            <img class="fb-logo" src="./images/facebook.svg" alt="facebook logo">
+        </button>
+
+        <button class="linkedin">
+            <div type="button">Register with LinkedIn</div>
+            <img class="in-logo" src="./images/linkedin.svg" alt="linked logo">
+        </button>
         </div>
+<!-- блок с кнопками регистрации -->
 
         <br>
         <p>or</p>
         <br>
 
-     <div>
+        <div class="registration">
         <label for="email">Email</label>
         <input type="email" id="email" name="Email" placeholder="enter your email">
 
         <label for="tel">Phone</label>
         <input type="tel" id="tel" name="tel" placeholder="enter your phone number">
-    </div>
-</form>
-        <h4>What type of investor are you?</h4>
-        <p>Select the type of investor you are below.</p>
+        </div>
+<!-- блок с имейлом и номером -->
+
         <br><br>
 
-    <div>
+        <div>
+        <p>What type of investor are you?</p>
+        <p>Select the type of investor you are below.</p>
+        </div>
+
+        <br><br>
+<!--  -->
+
+        <div class="types">
         <label class="radio-option">
         <input type="radio" name="type of investor" value="individual">
         Individual
-        <p class="hover">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common</p>
         </label>
         
         <label>
@@ -69,21 +85,26 @@
         <input type="radio" name="type of investor" value="trust">
         Trust
         </label>
-    </div>
-    </main>
+        </div>
+<!-- тут наверху 4 types of invester -->
 
         <br><br>
 
-    <footer>
-        <div>
+        <div class="terms">
         <input type="checkbox">
         I agree to the terms and receiving notifications from iintoo View full terms
         </div>
+<!--  -->
 
-        <p>
-            <button class="create-button" type="submit">Create Account</button>
-        </p>
-    </footer>
+        <br><br>
+<!--  -->
 
+        <button class="create-ac">
+            <div type="button">Create account</div>
+        </button>
+        
+<!-- конец -->
+        </div>
+    </main>
 </body>
 </html>

@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+}
+
+.left, .right {
+    width: 50%;
+}
+
+.left {
+    position: relative;
+}
+
+body {
+    font-family: "barlow";
+}
+
+.bg {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    width: 200px;
+    height: auto;
+}
+/* ------------------------------------------------------------------------------------------------------------------------
+form {
+    display: inline-block;
+    width: 45%;
+    height: 50px;
+    background-color: #EFF6FF;
+    color: #2A4A5C;
+}
+
+.left {
+    display: inline-block;
+    width: 50%;
+}
+
+header {
+    display: inline-block;
+    width: 45%;
+    height: 850px;
+}
+
+.facebook {
+    background-color: #255A9B;
+    color: white;
+}
+
+.linkedin {
+    background-color: #0076B6;
+    color: white;
+}
+
+.hover {
+    display: none;
+}
+
+.radio-option:hover .hover {
+    display: block;
+}
+
+.create-button {
+    color: white;
+    background-color: #3698FB;
+} */
