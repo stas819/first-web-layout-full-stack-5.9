@@ -73,3 +73,15 @@ span {
 .content {
     font-size: 14px;
 }
+
+.terms {
+    opacity: 60%;
+}
+
+.create-ac {
+    background-color: #3698FB;
+    color: white;
+    width: 35%;
+    height: 4%;
+    border-radius: 4px;
+}
