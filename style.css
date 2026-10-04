@@ -1,6 +1,7 @@
 body {
     font-family: "barlow";
     background-color: #EFF6FF;
+    color: #2A4A5C;
 }
 
 .container {
@@ -56,9 +57,19 @@ body {
 
 .or {
     text-transform: uppercase;
-    align-items: center;
+    padding-left: 40px;
 }
 
 span {
     color: gray;
+}
+
+.investor {
+    color: #7B8A92;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content {
+    font-size: 14px;
 }
