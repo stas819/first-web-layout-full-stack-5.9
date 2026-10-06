@@ -85,3 +85,16 @@ span {
     height: 4%;
     border-radius: 4px;
 }
+
+.info {
+  position: relative;
+}
+
+.pop-up_content {
+    display: none;
+    position: absolute;
+}
+
+.info:hover .pop-up_content {
+    display: block;
+}
