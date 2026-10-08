@@ -1,11 +1,15 @@
 body {
     font-family: "barlow";
-    background-color: #EFF6FF;
+    background-color: white;
     color: #2A4A5C;
 }
 
 .container {
     display: flex;
+}
+
+h1 {
+    font-weight: 400;
 }
 
 .logo {
@@ -65,13 +69,14 @@ span {
 }
 
 .investor {
-    color: #7B8A92;
-    font-weight: bold;
+    /* color: #7B8A92; */
+    font-weight: 400;
     font-size: 20px;
 }
 
 .content {
     font-size: 14px;
+    opacity: 60%;
 }
 
 .terms {
