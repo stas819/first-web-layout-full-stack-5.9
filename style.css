@@ -114,6 +114,7 @@ label {
     opacity: 80%;
     padding: 10px;
     width: 200px;
+    left: -70px;
 }
 
 .info:hover .pop-up_content {
