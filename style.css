@@ -2,6 +2,7 @@ body {
     font-family: "barlow";
     background-color: white;
     color: #2A4A5C;
+    margin: 20px;
 }
 
 .container {
@@ -14,9 +15,9 @@ h1 {
 
 .logo {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 100px;
+    top: 55px;
+    left: 55px;
+    width: 150px;
 }
 
 .facebook {
@@ -33,7 +34,8 @@ h1 {
     padding-left: 70px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
+    margin: 20px;
 }
 
 .media {
@@ -43,23 +45,27 @@ h1 {
 
 .facebook {
     display: flex;
+    align-items: center;
+    border: none;
+
 }
 
 .fb-logo {
-    width: 15px;
+    width: 25px;
     height: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
+    padding: 20px;
 }
 
 .linkedin {
     display: flex;
+    align-items: center;
+    border: none;
 }
 
 .in-logo {
-    width: 15px;
+    width: 25px;
     height: auto;
+    padding: 20px;
 }
 
 .or {
@@ -94,6 +100,10 @@ span {
     border-radius: 4px;
 }
 
+label {
+    margin: 30px;
+}
+
 .info {
   position: relative;
 }
@@ -101,8 +111,16 @@ span {
 .pop-up_content {
     display: none;
     position: absolute;
+    opacity: 80%;
+    padding: 10px;
+    width: 200px;
 }
 
 .info:hover .pop-up_content {
     display: block;
+    box-shadow:0 4px 20px #bbb;
+}
+
+.registration {
+    display: flex;
 }
