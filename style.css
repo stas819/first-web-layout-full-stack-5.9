@@ -124,4 +124,18 @@ label {
 
 .registration {
     display: flex;
+    justify-content: space-evenly;
+}
+
+.reg {
+    display: block;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid #ddd;
+    border-left: 0.5px solid #3698FB;
+    padding: 10px;
+    border-radius: 10px;
 }
