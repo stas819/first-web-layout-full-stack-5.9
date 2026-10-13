@@ -70,7 +70,8 @@ h1 {
 
 .or {
     text-transform: uppercase;
-    padding-left: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 span {
