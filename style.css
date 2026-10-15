@@ -39,33 +39,32 @@ h1 {
 }
 
 .media {
+    flex: 1;
     display: flex;
+    align-items: center;
     gap: 20px;
+    height: 42px; 
+    padding: 0 20px; 
+    border: none; 
+    font-family: inherit; 
+    font-size: 14px; 
+    color: white; 
 }
 
 .facebook {
     display: flex;
     align-items: center;
     border: none;
-
 }
 
-.fb-logo {
+.fb-logo, .in-logo {
     width: 25px;
-    height: auto;
-    padding: 20px;
 }
 
 .linkedin {
     display: flex;
     align-items: center;
     border: none;
-}
-
-.in-logo {
-    width: 25px;
-    height: auto;
-    padding: 20px;
 }
 
 .or {
