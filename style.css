@@ -39,6 +39,11 @@ h1 {
 }
 
 .media {
+    display: flex;
+    gap: 10px;
+}
+
+.media button{
     flex: 1;
     display: flex;
     align-items: center;
@@ -51,20 +56,8 @@ h1 {
     color: white; 
 }
 
-.facebook {
-    display: flex;
-    align-items: center;
-    border: none;
-}
-
 .fb-logo, .in-logo {
     width: 25px;
-}
-
-.linkedin {
-    display: flex;
-    align-items: center;
-    border: none;
 }
 
 .or {
